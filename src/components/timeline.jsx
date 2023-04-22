@@ -11,8 +11,8 @@ import SlideIn from "../animation/SlideIn";
 function Timeline(){
     
     return(
-       <SlideIn>
-        <div className="flex flex-col md:flex-row justify-center my-20 ">
+     
+        <div className="flex flex-col items-center  md:flex-row justify-center my-20 bg-gradient-to-r from-gray-100 to-gray-200  min-h-screen ">
             <div className="w-full md:w-7/12">
                 {timeline.map(item => (
                     <TimelineItem
@@ -25,7 +25,7 @@ function Timeline(){
                 ))}
             </div>
         </div>
-        </SlideIn>
+        
     )
 }
 export default Timeline;
