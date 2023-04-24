@@ -23,7 +23,7 @@ const FadeIn = ({children}) => {
     >
       {React.Children.map(children, (child, index) => (
         <div
-          className={`transition-all duration-500 delay-${(index * 3) * 2000}  ${isVisible ? ' opacity-100' : 'blur-xl opacity-0'}`}
+          className={`transition-all duration-1000 delay-${(index * 3) * 2000}  ${isVisible ? ' opacity-100' : 'blur-xl opacity-0'}`}
           
         >
           {child}

@@ -29,7 +29,7 @@ const IntroFadeIn = ({children}) => {
     >
       {React.Children.map(children, (child, index) => (
         <div
-          className={`inline-block transition-all duration-500 delay-${index * 1000} transform ${isVisible ? 'translate-x-0 opacity-100' : index % 2 === 0 ? '-translate-x-full blur-lg opacity-0' : 'translate-x-full blur-lg opacity-0' }`}
+          className={`inline-block transition-all duration-1000 delay-${index * 1000} transform ${isVisible ? 'translate-x-0 opacity-100' : index % 2 === 0 ? '-translate-x-full blur-lg scale-1 opacity-0' : 'translate-x-full blur-lg scale-1 opacity-0' }`}
         >
           {child}
         </div>

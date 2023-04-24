@@ -13,7 +13,7 @@ function PortfolioItem({title, imgUrl, buildTools, comment}){
             alt="portfolio"
             className="w-full h-36 md:h-48 object-cover cursor-pointer"
             />
-            <div className="absolute top-0 left-0 w-full h-full opacity-0 transition ease-out hover:bg-black hover:opacity-80 flex items-center justify-center">
+            <div className="absolute top-0 left-0 w-full h-full opacity-0  transition ease-out hover:bg-black hover:opacity-80  flex items-center justify-center">
                <div className="w-80 text-white text-lg font-bold">{comment}</div>
             </div>
           

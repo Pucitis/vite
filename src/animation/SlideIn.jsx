@@ -24,7 +24,7 @@ const SlideIn = ({children}) => {
     >
       {React.Children.map(children, (child, index) => (
         <div
-          className={`transition-all duration-500 delay-${index * 1000} transform ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full blur-lg opacity-0'}`}
+          className={`transition-all duration-700 delay-${index * 1000} transform ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full blur-lg opacity-0'}`}
         >
           {child}
         </div>
