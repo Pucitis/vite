@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-const SlideIn = ({children}) => {
+const IntroSlideIn = ({children}) => {
   const [ref, inView] = useInView({
     threshold: 0.25,
   });
@@ -10,13 +10,18 @@ const SlideIn = ({children}) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    if (inView) {
+
+      if (inView) {
       setIsVisible(true);
     } else {
-      setIsVisible(false)
-  }
+        setIsVisible(false)
+    }
   }, [inView]);
+     
+  
+  
 
+   
 
   return (
     <div
@@ -24,7 +29,7 @@ const SlideIn = ({children}) => {
     >
       {React.Children.map(children, (child, index) => (
         <div
-          className={`transition-all duration-700 delay-${index * 200} transform ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full blur-lg opacity-0'}`}
+          className={` transition-all duration-1000 delay-${index * 200} transform ${isVisible ? 'translate-x-0 opacity-100' : index % 2 === 0 ? 'translate-y-28 blur-lg scale-1 opacity-0' : 'translate-y-48 blur-lg scale-1 opacity-0' }`}
         >
           {child}
         </div>
@@ -33,4 +38,4 @@ const SlideIn = ({children}) => {
   );
 };
 
-export default SlideIn;
+export default IntroSlideIn;

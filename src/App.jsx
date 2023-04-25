@@ -5,12 +5,14 @@ import Portfolio from './components/portfolio'
 import Skills from './components/skills'
 import Footer from './components/footer'
 import Contact from './components/contact'
+import NavBar from './components/navBar'
 //import './App.css'
 
 function App() {
   
   return (
     <div className="App">
+      <NavBar />
       <Intro />
       <Portfolio />
       <Timeline />
