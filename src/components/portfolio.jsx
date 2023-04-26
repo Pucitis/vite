@@ -7,7 +7,7 @@ import SlideIn from "../animation/SlideIn";
 
 function Portfolio(){
     return(
-        <div>
+        <div id="portfolio"  >
             <h3 className="flex justify-center text-2xl md:text-4xl m-4 font-bold " >Darbi</h3>
                 <SlideIn>
 

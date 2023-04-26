@@ -6,6 +6,7 @@ import Skills from './components/skills'
 import Footer from './components/footer'
 import Contact from './components/contact'
 import NavBar from './components/navBar'
+import NavButton from './components/navButton'
 //import './App.css'
 
 function App() {

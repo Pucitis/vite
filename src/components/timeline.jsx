@@ -11,7 +11,7 @@ function Timeline(){
     
     return(
      
-        <div className="flex flex-col items-center  md:flex-row justify-center my-20 bg-gradient-to-r from-gray-100 to-gray-200  min-h-screen ">
+        <div id="timeline" className="flex flex-col items-center  md:flex-row justify-center my-20 bg-gradient-to-r from-gray-100 to-gray-200  min-h-screen ">
             <div className="w-10/12 md:w-7/12">
                 {timeline.map(item => (
                     <TimelineItem

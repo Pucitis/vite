@@ -7,7 +7,7 @@ import IntroSlideIn from "../animation/introSlideIn";
 function Intro(){
     return(
 
-        <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen">
+        <div className="flex items-center flex-col text-center pt-20 pb-6 bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen">
             <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold text-white">
               <div className="flex flex-row"> 
                     <div>
