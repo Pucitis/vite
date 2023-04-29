@@ -13,9 +13,11 @@ function PortfolioItem({title, imgUrl, buildTools, comment}){
             alt="portfolio"
             className="w-full h-36 md:h-48 object-cover cursor-pointer"
             />
-            <div className="absolute top-0 left-0 w-full h-full opacity-0  transition ease-out hover:bg-black hover:opacity-80  flex items-center justify-center">
-               <div className="w-80 text-white text-lg font-bold">{comment}</div>
+            <div className="absolute opacity-0 top-0 left-0 w-full h-full transition duration-500 ease-in-out transform hover:opacity-90 hover:-translate-y-full">
+                <div className="translate-y-full flex items-center justify-center w-full h-full bg-black">
+                <div className="w-80 text-white text-lg font-bold">{comment}</div>
             </div>
+        </div>
           
             <div className="w-full p-4">
                 <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">{title}</h3>

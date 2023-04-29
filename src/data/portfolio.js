@@ -3,13 +3,13 @@ export default [
         title: 'Future Form Teas',
         imgUrl: 'assets/FutureForm.jpg',
         buildTools: ['Wordpress'],
-        comment: 'Mājaslapa ir pabeigta, bet uzņēmums vēl nav sācis to izmanot'
+        comment: 'Moderns interneta veikals beramo tēju tirdzniecībai'
     },
     {
         title: 'Uzņēmuma digitalizācija',
         imgUrl: 'assets/Digitalizacija.jpg',
         buildTools: ['Wordpress'],
-        comment: 'Mājaslapa tiek prezentēta jauniem uzņēmumiem, kad piedāvāju savus pakalpojumus'
+        comment: 'Mājaslapa jaunu klientu piesaistei'
     },   
     {
         title: 'Izstrādātāja Portfolio',
