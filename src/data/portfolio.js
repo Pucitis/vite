@@ -13,7 +13,7 @@ export default [
     },   
     {
         title: 'Izstrādātāja Portfolio',
-        imgUrl: 'assets/dev-portfolio.jpg',
+        imgUrl: '',
         buildTools: ['React', 'Tailwind', 'Vite' ],
         comment: 'Personīgā Portfolio izstrāde izmantojot React'
     } 
